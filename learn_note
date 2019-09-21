@@ -1,0 +1,8 @@
+Flush firmware
+  -> On RevG, OFF
+  -> Hold RButton and connect to pc
+  -> cd into Firmware/Chameleon-Mini/Latest
+  -> sudo avrdude -c flip2 -p ATXMega128A4U -B 60 -P usb -U application:w:Chameleon-Mini.hex:i -U eeprom:w:Chameleon-Mini.eep:i
+
+Download DUMP_FILE to test.log
+  -> sudo python3 chamtool.py -p /dev/ttyACM0 -d test.log
