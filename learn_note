@@ -6,3 +6,6 @@ Flush firmware
 
 Download DUMP_FILE to test.log
   -> sudo python3 chamtool.py -p /dev/ttyACM0 -d test.log
+
+Git issue on reading non-supported cards
+  -> https://github.com/emsec/ChameleonMini/issues/97
