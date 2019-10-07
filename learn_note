@@ -9,3 +9,6 @@ Download DUMP_FILE to test.log
 
 Git issue on reading non-supported cards
   -> https://github.com/emsec/ChameleonMini/issues/97
+
+Tutorials on AVR programming
+  -> http://www.fourwalledcubicle.com/AVRArticles.php
